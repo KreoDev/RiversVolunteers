@@ -1,0 +1,37 @@
+<ion-view class="login" hide-nav-bar="true">
+  <ion-content>
+    <!-- <h4 class="align-center">&nbsp</h4> -->
+    <h1 class="align-center">&nbsp</h1>
+    <div class="align-center"><img ng-src="img/login_logo.png" ></div>
+    <div>
+      <form name="myform" ng-submit="doLogin()" novalidate>
+        <div class="list">
+          <div class="card">
+            <label class="item item-input">
+              <i class="icon ion-email placeholder-icon assertive"></i>
+              <input type="email" name="email" placeholder="Email" ng-model="user.email" ng-required="true">
+            </label>
+            <label class="item item-input">
+              <i class="icon ion-locked placeholder-icon assertive"></i>
+              <input type="password" name="password" placeholder="Password" ng-model="user.password" ng-required="true">
+            </label>
+            <label class="item item-input align-center">
+              <select class="positive">
+                <option class="positive">Blue</option>
+                <option class="positive" selected>---------- Choose Your Ministry ----------</option>
+                <option>Red</option>
+              </select>
+            </label>
+            </div>
+            <div class="align-center">
+              <a class="button button-dark" href="#/tab/home">&nbsp &nbsp &nbsp Login &nbsp &nbsp &nbsp</a>
+            </div>
+        </div>
+      </form>
+    </div>
+    <p></p>
+    <a class="align-center assertive" href="#/password">Forgot Your Password?</a>
+    <br>
+    <a class="align-center assertive" href="#/register">Register for Free</a>
+  </ion-content>
+</ion-view>

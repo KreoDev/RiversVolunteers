@@ -1,1 +1,106 @@
 /* Empty. Add your own CSS if you like */
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------------- Home Sytlying ------------------- */
+.home-menu {
+	margin-top: 100px;
+}
+.home-menu-buttons > img {
+    /* max-width: 100px; */
+    /*max-height: 80px;*/
+    /* display: block; */
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-radius: 5%;
+}
+
+.home .scroll{
+  /* height: 100%; */
+  background-color: #B3B3B3;
+}
+
+.home .scroll-content{
+  background-color: #B3B3B3;
+}
+
+/* ------------------- Ticket ------------------- */
+.profile .scroll{
+  /* height: 100%; */
+  background-color: #8BE1FF;
+}
+
+.profile .scroll-content{
+  background-color: #8BE1FF;
+}
+
+/* ------------------- Reporting Sytlying ------------------- */
+.report-menu-buttons > img {
+	width: 100%;
+    border-radius: 5%;
+    margin-top: 2px;
+    margin-bottom: -6px;
+}
+
+.report .scroll{
+  /* height: 100%; */
+  background-color: #ffb101;
+}
+
+.report .scroll-content{
+  background-color: #ffb101;
+}
+
+/* ------------------- Ticket ------------------- */
+.ticket-open .scroll{
+  /* height: 100%; */
+  background-color: #00c6bb;
+}
+
+.ticket-open .scroll-content{
+  background-color: #00c6bb;
+}
+
+/* ------------------- Settings ------------------- */
+.app-acclist .item-complex .item-content, .app-acclist .item{
+    background-color: #8BE1FF;
+    color: #000;
+    border-color: #2e73b5;
+}
+
+.app-acclist .item-divider{
+    background-color: #626C7F;
+    color: #000;
+    border-color: #2e73b5;
+    font-size: 0.9em;
+}
+
+.settings .scroll{
+  /* height: 100%; */
+  background-color: #2e73b5;
+}
+
+.settings .scroll-content{
+  background-color: #2e73b5;
+}
+
+/* ------------------- Ticket ------------------- */
+.login .scroll{
+  height: 100%;
+  width: 100%;
+  /* background-color: #00c6bb; */
+  background: url('../img/bg.png') no-repeat center;
+}
+
+.login .scroll-content{
+  background-color: #00c6bb;
+}
+
+.nav-logo {
+  margin-top: 5px;
+}/* Empty. Add your own CSS if you like */
